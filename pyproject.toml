@@ -1,0 +1,20 @@
+[project]
+name = "sysml-obfuscate"
+version = "0.1.0"
+description = "Obfuscate SysML v2 models for sharing sensitive data"
+license = { text = "MIT" }
+authors = [
+    { name = "Jon R. Fox", email = "jon.fox@drfox.com" },
+]
+
+[project.scripts]
+sysml-obfuscate = "sysml_obfuscate:main"
+
+[tool.poetry]
+name = "sysml-obfuscate"
+version = "0.1.0"
+authors = ["Jon R. Fox <jon.fox@drfox.com>"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
